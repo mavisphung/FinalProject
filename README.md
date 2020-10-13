@@ -6,6 +6,10 @@
 ## Contact
 - Facebook: Huy Phung
 > Once wibu, always wibu
+## Packages Installation
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.EntityFrameworkCore.Tools
+- Microsoft.EntityFrameworkCore.Design
 ## How to configure and run
 - Not support yet
 ## How to contribute
