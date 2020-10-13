@@ -12,7 +12,8 @@ namespace Jaydo.Data.Entities
         public int BrandId { get; set; }
         public int Stock { get; set; }
         public DateTime DateCreated { get; set; }
-        
+        public int UnitPrice { get; set; }
+
 
 
     }

@@ -1,4 +1,5 @@
-﻿using Jaydo.Data.Entities;
+﻿using Jaydo.Data.Configurations;
+using Jaydo.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Protocols;
 using System;
@@ -12,6 +13,15 @@ namespace Jaydo.Data.EF
         public JaydoDbContext(DbContextOptions options) : base(options)
         {
 
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //áp dụng configuaration vào DbContext
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
+            base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<Product> Products { get; set; }
