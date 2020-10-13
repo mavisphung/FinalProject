@@ -4,7 +4,7 @@
 - Entity Framework Core 3.1
 
 ## Contact
-- Facebook: Huy Phung
+- Facebook: [Huy Phung](https://www.facebook.com/mavisphung43/)
 > Once wibu, always wibu
 ## Packages Installation
 - Microsoft.EntityFrameworkCore.SqlServer
