@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jaydo.Data", "Jaydo.Data\Jaydo.Data.csproj", "{DD31A353-D900-4246-9940-538FAC48C514}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaydo.Application", "Jaydo.Application\Jaydo.Application.csproj", "{30C2B86B-A0B9-4865-8DBE-2225257F295A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{407791F0-6A7D-4BE4-A4A6-B2FAA181F991}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{407791F0-6A7D-4BE4-A4A6-B2FAA181F991}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{407791F0-6A7D-4BE4-A4A6-B2FAA181F991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD31A353-D900-4246-9940-538FAC48C514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD31A353-D900-4246-9940-538FAC48C514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD31A353-D900-4246-9940-538FAC48C514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD31A353-D900-4246-9940-538FAC48C514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C2B86B-A0B9-4865-8DBE-2225257F295A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C2B86B-A0B9-4865-8DBE-2225257F295A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C2B86B-A0B9-4865-8DBE-2225257F295A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C2B86B-A0B9-4865-8DBE-2225257F295A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
