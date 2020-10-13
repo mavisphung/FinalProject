@@ -5,6 +5,7 @@
 
 ## Contact
 - Facebook: Huy Phung
+> Once wibu, always wibu
 ## How to configure and run
 - Not support yet
 ## How to contribute
